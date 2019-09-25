@@ -1,32 +1,11 @@
-# eslint-config-vuepress
+# Configs
 
-> ESLint config for libs in the @vuepress organization
+> Config packages for VuePress Community
 
-## Usage
+## Packages
 
-Install:
-
-```sh
-npm i -D eslint-config-vuepress
-```
-
-In `.eslintrc.js`:
-
-```js
-module.exports = {
-  extends: ['vuepress'],
-
-  rules: {
-    // override rules
-  },
-}
-```
-
-In `.eslintignore`:
-
-```
-!.vuepress
-```
+- [eslint-config-vuepress](https://github.com/vuepress/configs/tree/master/packages/eslint-config-vuepress)
+- [prettier-config-vuepress](https://github.com/vuepress/configs/tree/master/packages/prettier-config-vuepress)
 
 ## License
 
