@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+yarn-debug.log*
+yarn-error.log*

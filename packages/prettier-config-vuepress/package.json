@@ -1,0 +1,16 @@
+{
+  "name": "prettier-config-vuepress",
+  "version": "0.1.0",
+  "description": "Prettier config for VuePress Community",
+  "homepage": "https://github.com/vuepress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuepress/configs.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js"
+}
