@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.jsx packages"
+    "lint": "eslint --ext .js,.jsx packages",
+    "release": "lerna publish"
   },
   "husky": {
     "hooks": {
