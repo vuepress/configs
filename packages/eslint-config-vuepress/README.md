@@ -1,6 +1,6 @@
 # eslint-config-vuepress
 
-> ESLint config for libs in the @vuepress organization
+> ESLint config for VuePress Community
 
 **DO NOT use it in your own project if you don't know what it's for**
 

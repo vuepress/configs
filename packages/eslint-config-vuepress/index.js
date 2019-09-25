@@ -1,20 +1,17 @@
 module.exports = {
   extends: [
     'standard',
-    'plugin:@typescript-eslint/recommended',
-    'plugin:import/typescript',
     'plugin:vue/recommended',
     'prettier',
     'prettier/standard',
-    'prettier/@typescript-eslint',
     'prettier/vue',
   ],
 
   parserOptions: {
-    parser: '@typescript-eslint/parser',
+    parser: 'babel-eslint',
   },
 
-  plugins: ['vue', '@typescript-eslint', 'prettier'],
+  plugins: ['vue', 'prettier'],
 
   rules: {
     'vue/component-name-in-template-casing': [
@@ -32,10 +29,6 @@ module.exports = {
         shouldMatchCase: false,
       },
     ],
-    'no-useless-constructor': 'off',
-    '@typescript-eslint/no-useless-constructor': 'error',
-    'import/prefer-default-export': 'off',
-    'import/no-cycle': 'off',
     'prettier/prettier': 'error',
   },
 }
