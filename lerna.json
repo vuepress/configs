@@ -4,6 +4,10 @@
   "version": "independent",
   "command": {
     "version": {
+      "allowBranch": "master",
+      "conventionalCommits": false,
+      "exact": true,
+      "ignoreChanges": ["**/*.md"],
       "message": "build: publish"
     }
   }
