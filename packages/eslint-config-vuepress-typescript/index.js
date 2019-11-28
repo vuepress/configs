@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    'vuepress',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
+    'vuepress',
     'prettier/@typescript-eslint',
   ],
 
