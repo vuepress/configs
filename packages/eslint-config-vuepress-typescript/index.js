@@ -17,5 +17,12 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 'error',
     'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
+    'vue/match-component-file-name': [
+      'error',
+      {
+        extensions: ['js', 'jsx', 'ts', 'tsx', 'vue'],
+        shouldMatchCase: false,
+      },
+    ],
   },
 }
