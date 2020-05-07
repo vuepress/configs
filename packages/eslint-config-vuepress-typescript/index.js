@@ -15,8 +15,19 @@ module.exports = {
   rules: {
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      {
+        allowExpressions: true,
+        allowTypedFunctionExpressions: true,
+        allowHigherOrderFunctions: true,
+      },
+    ],
+
     'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
+
     'vue/match-component-file-name': [
       'error',
       {
