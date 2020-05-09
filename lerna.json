@@ -5,7 +5,7 @@
   "command": {
     "version": {
       "allowBranch": "master",
-      "conventionalCommits": false,
+      "conventionalCommits": true,
       "exact": true,
       "ignoreChanges": ["**/*.md"],
       "message": "build: publish"
