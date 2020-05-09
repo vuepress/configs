@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vuepress",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ESLint config for VuePress Community",
   "homepage": "https://github.com/vuepress",
   "repository": {
@@ -9,10 +9,10 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
+  "main": "index.js",
   "files": [
     "index.js"
   ],
-  "main": "index.js",
   "dependencies": {
     "babel-eslint": "^10.0.3",
     "eslint-config-prettier": "^6.7.0",
