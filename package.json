@@ -9,8 +9,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "commitlint": {
@@ -21,16 +21,13 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.{json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ],
     "package.json": [
-      "sort-package-json",
-      "git add"
+      "sort-package-json"
     ]
   },
   "prettier": "prettier-config-vuepress",
@@ -39,16 +36,16 @@
     "root": true
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/config-lerna-scopes": "^8.2.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/config-lerna-scopes": "^8.3.4",
     "eslint": "^6.4.0",
-    "eslint-config-vuepress": "^2.0.0",
-    "husky": "^3.0.5",
+    "eslint-config-vuepress": "^2.1.0",
+    "husky": "^4.2.5",
     "lerna": "^3.16.4",
-    "lint-staged": "^9.3.0",
-    "prettier": "^1.18.2",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.0.5",
     "prettier-config-vuepress": "^1.0.0",
-    "sort-package-json": "^1.22.1"
+    "sort-package-json": "^1.42.2"
   }
 }
