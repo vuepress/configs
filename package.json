@@ -20,7 +20,7 @@
     ]
   },
   "lint-staged": {
-    "*.{js,ts,vue}": "eslint --fix",
+    "*.{js,ts,vue},!test": "eslint --fix",
     "*.{json,md}": "prettier --write",
     "package.json": "sort-package-json"
   },
