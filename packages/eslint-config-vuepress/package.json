@@ -14,18 +14,18 @@
     "index.js"
   ],
   "dependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^6.0.1"
+    "eslint-plugin-vue": "^7.1.0"
   },
   "peerDependencies": {
-    "prettier": "^1.18.2||^2.0.0",
+    "prettier": "^2.0.0",
     "prettier-config-vuepress": "^1.0.0"
   }
 }
