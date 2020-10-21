@@ -71,7 +71,7 @@ module.exports = {
     ...fromEntries(
       equivalents.map((name) => [
         `@typescript-eslint/${name}`,
-        standard.rules[name],
+        JSON.parse(JSON.stringify(standard.rules[name])),
       ])
     ),
 
