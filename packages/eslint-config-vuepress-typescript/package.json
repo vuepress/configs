@@ -9,9 +9,9 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
-  "main": "index.js",
+  "main": "lib/index.js",
   "files": [
-    "index.js"
+    "lib"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
