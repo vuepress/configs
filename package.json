@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.vue packages",
+    "lint": "eslint packages",
+    "lint:all": "eslint --ext .js,.ts,.vue .",
     "release": "lerna publish"
   },
   "husky": {
