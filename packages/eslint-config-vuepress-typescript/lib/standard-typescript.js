@@ -65,6 +65,10 @@ module.exports = {
       'error',
       {
         selector: 'variable',
+        filter: {
+          regex: '^__[A-Z]+(?:_[A-Z]+)*__$',
+          match: false,
+        },
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
       },
       {
