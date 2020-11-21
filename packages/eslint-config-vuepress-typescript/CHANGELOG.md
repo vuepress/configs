@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.0.3...eslint-config-vuepress-typescript@2.1.0) (2020-11-21)
+
+### Features
+
+- **eslint-config-vuepress-typescript:** allow **UPPER_CASE** variables ([39ca660](https://github.com/vuepress/configs/commit/39ca6605d52582073e66d0e6588b4d077c9ab42e))
+
 ## [2.0.3](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.0.2...eslint-config-vuepress-typescript@2.0.3) (2020-10-21)
 
 **Note:** Version bump only for package eslint-config-vuepress-typescript
