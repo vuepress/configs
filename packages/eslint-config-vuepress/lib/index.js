@@ -3,6 +3,7 @@ module.exports = {
     'standard',
     'plugin:vue/vue3-recommended',
     'prettier',
+    'prettier/prettier',
     'prettier/standard',
     'prettier/vue',
   ],
