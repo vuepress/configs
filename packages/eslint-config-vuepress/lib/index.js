@@ -8,10 +8,6 @@ module.exports = {
     'prettier/vue',
   ],
 
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
-
   plugins: ['vue', 'prettier'],
 
   rules: {

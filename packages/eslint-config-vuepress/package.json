@@ -14,7 +14,6 @@
     "lib"
   ],
   "dependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^7.0.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
@@ -24,7 +23,23 @@
     "eslint-plugin-vue": "^7.2.0"
   },
   "peerDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
     "prettier": "^2.0.0",
     "prettier-config-vuepress": "^1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@babel/core": {
+      "optional": true
+    },
+    "@babel/eslint-parser": {
+      "optional": true
+    },
+    "prettier": {
+      "optional": true
+    },
+    "prettier-config-vuepress": {
+      "optional": true
+    }
   }
 }
