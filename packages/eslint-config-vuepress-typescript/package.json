@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vuepress-typescript",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "ESLint config for VuePress Community",
   "homepage": "https://github.com/vuepress",
   "repository": {
@@ -16,6 +16,6 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
-    "eslint-config-vuepress": "3.0.2"
+    "eslint-config-vuepress": "3.1.0"
   }
 }

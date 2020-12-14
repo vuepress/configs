@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.0.2...eslint-config-vuepress@3.1.0) (2020-12-14)
+
+### Features
+
+- **eslint-config-vuepress:** bump eslint-config-prettier to 7.0.0 ([9f66d82](https://github.com/vuepress/configs/commit/9f66d82b3dc50de71b83ba93de2b1d72483a9896))
+- **eslint-config-vuepress:** migrate babel-eslint and move it to peerDependencies ([2dc4b2e](https://github.com/vuepress/configs/commit/2dc4b2ee9156ba6bae6f34ee20005376186335ce))
+
 ## [3.0.2](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.0.1...eslint-config-vuepress@3.0.2) (2020-11-27)
 
 **Note:** Version bump only for package eslint-config-vuepress
