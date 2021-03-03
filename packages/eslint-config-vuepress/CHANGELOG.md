@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.1.0...eslint-config-vuepress@3.2.0) (2021-03-03)
+
+### Features
+
+- update eslint-config-prettier ([98aa999](https://github.com/vuepress/configs/commit/98aa9994a795ff3e7a708cbf1aacb604293e1781))
+
 # [3.1.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.0.2...eslint-config-vuepress@3.1.0) (2020-12-14)
 
 ### Features
