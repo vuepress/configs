@@ -2,7 +2,7 @@ const standard = require('eslint-config-standard')
 
 /**
  * Rules that have same name and config
- * in bot eslint and @typescript/eslint
+ * in both eslint and @typescript/eslint
  */
 const equivalents = [
   'brace-style',

@@ -4,7 +4,7 @@ module.exports = {
     'plugin:import/typescript',
     'vuepress',
     require.resolve('./standard-typescript'),
-    'prettier/@typescript-eslint',
+    'prettier',
   ],
 
   parserOptions: {

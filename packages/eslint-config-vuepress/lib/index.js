@@ -2,13 +2,8 @@ module.exports = {
   extends: [
     'standard',
     'plugin:vue/vue3-recommended',
-    'prettier',
-    'prettier/prettier',
-    'prettier/standard',
-    'prettier/vue',
+    'plugin:prettier/recommended',
   ],
-
-  plugins: ['vue', 'prettier'],
 
   rules: {
     'vue/component-name-in-template-casing': [
@@ -26,6 +21,5 @@ module.exports = {
         shouldMatchCase: false,
       },
     ],
-    'prettier/prettier': 'error',
   },
 }
