@@ -59,4 +59,7 @@ module.exports = {
 
   // End of line
   endOfLine: 'lf',
+
+  // Control whether Prettier formats quoted code embedded in the file
+  embeddedLanguageFormatting: 'auto',
 }
