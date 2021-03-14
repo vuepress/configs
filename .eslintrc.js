@@ -6,6 +6,9 @@ module.exports = {
     {
       files: ['*.ts', '*.vue'],
       extends: ['vuepress-typescript'],
+      parserOptions: {
+        project: ['tsconfig.json'],
+      },
     },
   ],
 }
