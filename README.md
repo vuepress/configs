@@ -1,6 +1,6 @@
 # Configs
 
-> Config packages for VuePress Community
+> Config packages for VuePress Team
 
 ## Packages
 
@@ -10,4 +10,4 @@
 
 ## License
 
-[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Team](https://github.com/vuepress)

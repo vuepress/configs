@@ -1,6 +1,6 @@
 # eslint-config-vuepress-typescript
 
-> ESLint config for VuePress Community
+> ESLint config for VuePress Team
 
 **DO NOT use it in your own project if you don't know what it's for**
 
@@ -32,4 +32,4 @@ Create `.eslintignore`:
 
 ## License
 
-[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Team](https://github.com/vuepress)

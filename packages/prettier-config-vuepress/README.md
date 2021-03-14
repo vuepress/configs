@@ -1,6 +1,6 @@
 # prettier-config-vuepress
 
-> Prettier config for VuePress Community
+> Prettier config for VuePress Team
 
 **DO NOT use it in your own project if you don't know what it's for**
 
@@ -22,4 +22,4 @@ In `package.json`:
 
 ## License
 
-[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Community](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Team](https://github.com/vuepress)
