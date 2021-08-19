@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.4](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.2.3...eslint-config-vuepress-typescript@2.2.4) (2021-08-19)
+
+### Bug Fixes
+
+- **eslint-config-vuepress-typescript:** override base rules correctly ([e597337](https://github.com/vuepress/configs/commit/e59733723bafed74bf97e6d26de44d46f199ccfd))
+
 ## [2.2.3](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.2.2...eslint-config-vuepress-typescript@2.2.3) (2021-08-19)
 
 ### Bug Fixes
