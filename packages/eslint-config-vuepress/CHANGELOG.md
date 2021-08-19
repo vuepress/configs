@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.2.1...eslint-config-vuepress@3.3.0) (2021-08-19)
+
+### Features
+
+- **eslint-config-vuepress:** add import rules ([1196b57](https://github.com/vuepress/configs/commit/1196b576d286765e458a112db7d346f8aaca606a))
+
 ## [3.2.1](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.2.0...eslint-config-vuepress@3.2.1) (2021-03-14)
 
 **Note:** Version bump only for package eslint-config-vuepress
