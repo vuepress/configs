@@ -32,4 +32,4 @@ Create `.eslintignore`:
 
 ## License
 
-[MIT](https://github.com/vuepress/configs/blob/master/LICENSE) &copy; [VuePress Team](https://github.com/vuepress)
+[MIT](https://github.com/vuepress/configs/blob/main/LICENSE) &copy; [VuePress Team](https://github.com/vuepress)
