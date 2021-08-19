@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.2.4...eslint-config-vuepress-typescript@2.3.0) (2021-08-19)
+
+### Features
+
+- **eslint-config-vuepress-typescript:** disable import/no-unresolved ([55bd556](https://github.com/vuepress/configs/commit/55bd556c05b39db611c374248d202197239e1a56))
+
 ## [2.2.4](https://github.com/vuepress/configs/compare/eslint-config-vuepress-typescript@2.2.3...eslint-config-vuepress-typescript@2.2.4) (2021-08-19)
 
 ### Bug Fixes
