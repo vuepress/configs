@@ -24,8 +24,9 @@ module.exports = {
       },
     ],
 
-    'import/prefer-default-export': 'off',
     'import/no-cycle': 'off',
+    'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
 
     'vue/match-component-file-name': [
       'error',
