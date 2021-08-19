@@ -1,11 +1,37 @@
 module.exports = {
   extends: [
     'standard',
+    'plugin:import/recommended',
     'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
   ],
 
   rules: {
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: false,
+        optionalDependencies: false,
+      },
+    ],
+    'import/order': [
+      'error',
+      {
+        'groups': [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
+        'newlines-between': 'never',
+        'alphabetize': {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     'vue/component-name-in-template-casing': [
       'error',
       'PascalCase',
