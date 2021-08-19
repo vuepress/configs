@@ -16,6 +16,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.2",
     "@typescript-eslint/parser": "^4.29.2",
+    "eslint-config-standard": "^16.0.3",
     "eslint-config-vuepress": "3.3.0"
   }
 }
