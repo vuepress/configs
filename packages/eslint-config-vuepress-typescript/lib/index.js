@@ -15,6 +15,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
 
   rules: {
+    '@typescript-eslint/consistent-type-imports': 'warn',
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {

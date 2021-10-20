@@ -12,6 +12,7 @@ module.exports = {
       {
         devDependencies: false,
         optionalDependencies: false,
+        peerDependencies: false,
       },
     ],
     'import/order': [
@@ -30,6 +31,15 @@ module.exports = {
           order: 'asc',
           caseInsensitive: true,
         },
+      },
+    ],
+    'sort-imports': [
+      'warn',
+      {
+        ignoreCase: true,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        allowSeparatedGroups: false,
       },
     ],
     'vue/component-name-in-template-casing': [
