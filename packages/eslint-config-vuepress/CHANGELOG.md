@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.4.0...eslint-config-vuepress@3.5.0) (2021-12-08)
+
+### Features
+
+- bump dependencies ([c7450bf](https://github.com/vuepress/configs/commit/c7450bf633cd92d653d184e87e23b80519521a24))
+
 # [3.4.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.3.0...eslint-config-vuepress@3.4.0) (2021-10-20)
 
 ### Features
