@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "eslint packages",
     "lint:all": "eslint --ext .js,.ts,.vue .",
-    "release": "lerna publish",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "lerna publish"
   },
   "commitlint": {
     "extends": [
@@ -22,15 +22,15 @@
   },
   "prettier": "prettier-config-vuepress",
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "@commitlint/config-lerna-scopes": "^13.1.0",
-    "eslint": "^7.32.0",
-    "husky": "^7.0.1",
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/config-lerna-scopes": "^15.0.0",
+    "eslint": "^8.4.1",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
-    "sort-package-json": "^1.50.0",
-    "typescript": "^4.3.5"
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.5.1",
+    "sort-package-json": "^1.53.1",
+    "typescript": "^4.5.2"
   }
 }
