@@ -1,0 +1,15 @@
+{
+  "name": "tsconfig-vuepress",
+  "version": "0.0.0",
+  "description": "TSConfig for VuePress Team",
+  "homepage": "https://github.com/vuepress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuepress/configs.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
+  "files": [
+    "base.json"
+  ]
+}

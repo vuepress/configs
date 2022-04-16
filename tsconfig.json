@@ -1,4 +1,10 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "tsconfig-vuepress/base.json",
+  "compilerOptions": {
+    "lib": [],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2017"
+  },
   "include": ["test"]
 }

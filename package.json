@@ -1,4 +1,5 @@
 {
+  "name": "@vuepress/configs",
   "private": true,
   "workspaces": [
     "packages/*"
