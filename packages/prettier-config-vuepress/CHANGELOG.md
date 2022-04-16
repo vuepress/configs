@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/vuepress/configs/compare/prettier-config-vuepress@1.3.0...prettier-config-vuepress@1.4.0) (2022-04-16)
+
+### Features
+
+- **prettier-config-vuepress:** support prettier 2.6 ([aca112b](https://github.com/vuepress/configs/commit/aca112b0aa21ce2150e80265c6850ba5805e8dab))
+
 # [1.3.0](https://github.com/vuepress/configs/compare/prettier-config-vuepress@1.2.0...prettier-config-vuepress@1.3.0) (2021-12-08)
 
 ### Features

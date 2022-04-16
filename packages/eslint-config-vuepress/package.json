@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vuepress",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "description": "ESLint config for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "repository": {
