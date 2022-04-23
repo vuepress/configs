@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.7.1](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.7.0...eslint-config-vuepress@3.7.1) (2022-04-23)
+
+### Bug Fixes
+
+- replace legacy eslint-plugin-node ([58b4d4f](https://github.com/vuepress/configs/commit/58b4d4f6ff83a319b119e773c9e769f10dba1b61))
+
 # [3.7.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.6.0...eslint-config-vuepress@3.7.0) (2022-04-23)
 
 ### Features
