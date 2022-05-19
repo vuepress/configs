@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/vuepress/configs/compare/tsconfig-vuepress@0.2.0...tsconfig-vuepress@0.2.1) (2022-05-19)
+
+### Bug Fixes
+
+- **tsconfig-vuepress:** disable preserveValueImports ([5d762e1](https://github.com/vuepress/configs/commit/5d762e1d774fdc3aeacee3b40a45454b6d2bf827))
+
 # [0.2.0](https://github.com/vuepress/configs/compare/tsconfig-vuepress@0.1.0...tsconfig-vuepress@0.2.0) (2022-05-19)
 
 ### Features
