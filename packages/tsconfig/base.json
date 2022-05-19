@@ -24,7 +24,7 @@
     "noUncheckedIndexedAccess": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "preserveValueImports": true,
+    "preserveValueImports": false,
     "removeComments": false,
     "resolveJsonModule": true,
     "sourceMap": false,
