@@ -1,9 +1,6 @@
 {
   "name": "@vuepress/configs",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "eslint packages",
     "lint:all": "eslint --ext .js,.ts,.vue .",
