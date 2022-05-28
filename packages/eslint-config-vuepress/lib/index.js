@@ -53,7 +53,7 @@ module.exports = {
     'vue/match-component-file-name': [
       'error',
       {
-        extensions: ['js', 'jsx', 'vue'],
+        extensions: ['cjs', 'js', 'jsx', 'mjs', 'vue'],
         shouldMatchCase: false,
       },
     ],
