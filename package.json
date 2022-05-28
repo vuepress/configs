@@ -7,14 +7,10 @@
     "prepare": "husky install",
     "release": "lerna publish"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "lint-staged": {
-    "*.{js,ts,vue},!test": "eslint --fix",
     "*.{json,md}": "prettier --write",
+    "*.{js,ts,vue},!test": "eslint --fix",
+    ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
   "prettier": "prettier-config-vuepress",
