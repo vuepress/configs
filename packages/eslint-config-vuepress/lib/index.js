@@ -10,7 +10,16 @@ module.exports = {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        devDependencies: false,
+        devDependencies: [
+          '**/__tests__/**',
+          '**/.vuepress/**',
+          '**/.eslintrc.js',
+          '**/jest.config.js',
+          '**/jest.setup.js',
+          '**/tsup.config.js',
+          '**/vitest.config.js',
+          '**/vuepress.config.js',
+        ],
         optionalDependencies: false,
         peerDependencies: false,
       },

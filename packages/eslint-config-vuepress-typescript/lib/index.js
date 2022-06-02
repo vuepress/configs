@@ -26,13 +26,37 @@ module.exports = {
     ],
 
     'import/no-cycle': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/__tests__/**',
+          '**/.vuepress/**',
+          '**/tsup.config.ts',
+          '**/vitest.config.ts',
+          '**/vuepress.config.ts',
+        ],
+        optionalDependencies: false,
+        peerDependencies: false,
+      },
+    ],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
 
     'vue/match-component-file-name': [
       'error',
       {
-        extensions: ['cjs', 'ctx', 'js', 'jsx', 'mjs', 'mts', 'ts', 'tsx', 'vue'],
+        extensions: [
+          'cjs',
+          'ctx',
+          'js',
+          'jsx',
+          'mjs',
+          'mts',
+          'ts',
+          'tsx',
+          'vue',
+        ],
         shouldMatchCase: false,
       },
     ],
