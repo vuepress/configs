@@ -9,7 +9,7 @@
   },
   "lint-staged": {
     "*.{json,md}": "prettier --write",
-    "*.{js,ts,vue},!test": "eslint --fix",
+    "!(test)/**/*.js": "eslint --fix",
     ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
   },
