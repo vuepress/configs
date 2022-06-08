@@ -59,6 +59,12 @@ module.exports = {
         ignores: [],
       },
     ],
+    'vue/component-tags-order': [
+      'error',
+      {
+        order: ['script', 'template', 'style'],
+      },
+    ],
     'vue/match-component-file-name': [
       'error',
       {
