@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.10.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.9.0...eslint-config-vuepress@3.10.0) (2022-06-08)
+
+### Features
+
+- **eslint-config-vuepress:** put script before template ([6e038d2](https://github.com/vuepress/configs/commit/6e038d24677f24ee5d620a5ea42e90b8adbb013c))
+
 # [3.9.0](https://github.com/vuepress/configs/compare/eslint-config-vuepress@3.8.0...eslint-config-vuepress@3.9.0) (2022-06-02)
 
 ### Features
