@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vuepress-typescript",
-  "version": "2.9.1",
+  "version": "4.0.0",
   "description": "ESLint config for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "repository": {

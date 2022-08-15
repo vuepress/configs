@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 4.0.0 (2022-08-15)
+
+### Features
+
+- **prettier-config-vuepress:** add embeddedLanguageFormatting config ([bc9428d](https://github.com/vuepress/configs/commit/bc9428d06aa325dbe62b7c358d530595bb40708d))
+- **prettier-config-vuepress:** list all prettier configs ([6eeaada](https://github.com/vuepress/configs/commit/6eeaada781a7dfc35495bde3c26670d5b844ced8))
+- **prettier-config-vuepress:** support prettier 2.4 ([ef5d544](https://github.com/vuepress/configs/commit/ef5d5449c78409df0ef2945493dc36822967a30b))
+- **prettier-config-vuepress:** support prettier 2.6 ([aca112b](https://github.com/vuepress/configs/commit/aca112b0aa21ce2150e80265c6850ba5805e8dab))
+
 # [1.4.0](https://github.com/vuepress/configs/compare/prettier-config-vuepress@1.3.0...prettier-config-vuepress@1.4.0) (2022-04-16)
 
 ### Features
