@@ -5,7 +5,7 @@
     "lint": "eslint packages",
     "lint:all": "eslint --ext .js,.ts,.vue .",
     "prepare": "husky install",
-    "release": "lerna publish"
+    "release": "pnpm lint && lerna publish"
   },
   "lint-staged": {
     "*.{json,md}": "prettier --write",
