@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.2](https://github.com/vuepress/configs/compare/v4.0.1...v4.0.2) (2022-08-15)
+
+### Bug Fixes
+
+- **eslint-config-vuepress:** update import/no-extraneous-dependencies ([a5ac8af](https://github.com/vuepress/configs/commit/a5ac8afa9154bc5b72dbde66adade3d57c697af7))
+
 ## [4.0.1](https://github.com/vuepress/configs/compare/v4.0.0...v4.0.1) (2022-08-15)
 
 **Note:** Version bump only for package eslint-config-vuepress-typescript
