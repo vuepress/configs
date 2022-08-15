@@ -13,11 +13,16 @@ module.exports = {
       'error',
       {
         devDependencies: [
+          '**/tests/**',
+          '**/test/**',
           '**/__tests__/**',
+          '**/__mocks__/**',
           '**/.vuepress/**',
+          '**/*.{test,spec}.js',
+          '**/.commitlintrc.cjs',
+          '**/.commitlintrc.js',
+          '**/.eslintrc.cjs',
           '**/.eslintrc.js',
-          '**/jest.config.js',
-          '**/jest.setup.js',
           '**/tsup.config.js',
           '**/vitest.config.js',
           '**/vuepress.config.js',
