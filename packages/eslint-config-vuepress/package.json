@@ -17,24 +17,15 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-vue": "^9.1.0"
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "peerDependencies": {
-    "@babel/core": "^7.18.2",
-    "@babel/eslint-parser": "^7.18.2",
-    "prettier": "^2.6.2",
+    "prettier": "^2.7.1",
     "prettier-config-vuepress": "^1.4.0"
   },
   "peerDependenciesMeta": {
-    "@babel/core": {
-      "optional": true
-    },
-    "@babel/eslint-parser": {
-      "optional": true
-    },
     "prettier": {
       "optional": true
     },

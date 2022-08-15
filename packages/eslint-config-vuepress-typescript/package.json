@@ -14,9 +14,10 @@
     "lib"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "eslint-config-standard": "^17.0.0",
-    "eslint-config-vuepress": "workspace:*"
+    "eslint-config-vuepress": "workspace:*",
+    "eslint-plugin-vue": "^9.3.0"
   }
 }

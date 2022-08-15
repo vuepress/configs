@@ -66,7 +66,7 @@ module.exports = {
       {
         selector: 'variable',
         filter: {
-          regex: '^__[A-Z]+(?:_[A-Z]+)*__$',
+          regex: '^(__[A-Z]+(?:_[A-Z]+)*__)|(__dirname|__filename)$',
           match: false,
         },
         format: ['camelCase', 'PascalCase', 'UPPER_CASE'],

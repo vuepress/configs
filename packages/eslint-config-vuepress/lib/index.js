@@ -2,11 +2,13 @@ module.exports = {
   extends: [
     'standard',
     'plugin:import/recommended',
-    'plugin:vue/vue3-recommended',
     'plugin:prettier/recommended',
   ],
 
   rules: {
+    /**
+     * import
+     */
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -42,6 +44,10 @@ module.exports = {
         },
       },
     ],
+
+    /**
+     * eslint
+     */
     'sort-imports': [
       'warn',
       {
@@ -49,27 +55,6 @@ module.exports = {
         ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         allowSeparatedGroups: false,
-      },
-    ],
-    'vue/component-name-in-template-casing': [
-      'error',
-      'PascalCase',
-      {
-        registeredComponentsOnly: false,
-        ignores: [],
-      },
-    ],
-    'vue/component-tags-order': [
-      'error',
-      {
-        order: ['script', 'template', 'style'],
-      },
-    ],
-    'vue/match-component-file-name': [
-      'error',
-      {
-        extensions: ['cjs', 'js', 'jsx', 'mjs', 'vue'],
-        shouldMatchCase: false,
       },
     ],
   },

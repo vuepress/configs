@@ -10,6 +10,8 @@ const fooBar = "fooBar"
 
 const __FOO_BAR__ = '__FOO_BAR__'
 
+const __dirname = '__dirname'
+
 export default Vue.extend({
   name: 'bar',
 })

@@ -1,10 +1,11 @@
 {
   "extends": "tsconfig-vuepress/base.json",
   "compilerOptions": {
+    "jsx": "preserve",
     "lib": [],
-    "module": "CommonJS",
+    "module": "ESNext",
     "moduleResolution": "Node",
-    "target": "ES2017"
+    "target": "ES2020"
   },
   "include": ["test"]
 }
