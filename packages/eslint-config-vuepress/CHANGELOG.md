@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.3](https://github.com/vuepress/configs/compare/v4.0.2...v4.0.3) (2022-08-16)
+
+### Bug Fixes
+
+- **eslint-config-vuepress:** disable import/no-unresolved ([b29d611](https://github.com/vuepress/configs/commit/b29d6115a5b6c9338ec48db88bfd09a1cdb01ccc))
+- **eslint-config-vuepress:** set ecmaVersion to 2020 ([d826ba6](https://github.com/vuepress/configs/commit/d826ba69fee518f5dd06064d455c51fe204cb2d8))
+
 ## [4.0.2](https://github.com/vuepress/configs/compare/v4.0.1...v4.0.2) (2022-08-15)
 
 ### Bug Fixes
