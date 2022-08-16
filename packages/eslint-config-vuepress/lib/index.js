@@ -54,6 +54,11 @@ module.exports = {
         },
       },
     ],
+    // ==========
+    // import node esm
+    // ==========
+    // This rule somehow reports FP in node esm
+    'import/no-unresolved': 'off',
 
     /**
      * eslint
