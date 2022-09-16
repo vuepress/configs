@@ -29,7 +29,7 @@ importers:
       prettier: 2.7.1
       prettier-config-vuepress: link:packages/prettier-config-vuepress
       sort-package-json: 1.57.0
-      tsconfig-vuepress: link:packages/tsconfig
+      tsconfig-vuepress: link:packages/tsconfig-vuepress
       typescript: 4.8.3
 
   packages/eslint-config-vuepress:
@@ -65,7 +65,7 @@ importers:
   packages/prettier-config-vuepress:
     specifiers: {}
 
-  packages/tsconfig:
+  packages/tsconfig-vuepress:
     specifiers: {}
 
 packages:
