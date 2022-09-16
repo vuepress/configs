@@ -7,7 +7,7 @@
       "conventionalCommits": true,
       "exact": true,
       "ignoreChanges": ["**/*.md"],
-      "message": "build: publish"
+      "message": "build: publish %s"
     }
   }
 }
