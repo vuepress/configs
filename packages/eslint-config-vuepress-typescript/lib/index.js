@@ -1,5 +1,3 @@
-const base = require('eslint-config-vuepress')
-
 module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
@@ -35,24 +33,6 @@ module.exports = {
     // import
     // ==========
     'import/no-cycle': 'off',
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: base.rules[
-          'import/no-extraneous-dependencies'
-        ][1].devDependencies.flatMap((item) => {
-          if (item.endsWith('.js')) {
-            return [item, item.replace(/.js$/, '.ts')]
-          }
-          return item
-        }),
-        optionalDependencies:
-          base.rules['import/no-extraneous-dependencies'][1]
-            .optionalDependencies,
-        peerDependencies:
-          base.rules['import/no-extraneous-dependencies'][1].peerDependencies,
-      },
-    ],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
 
