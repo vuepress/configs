@@ -11,9 +11,9 @@ module.exports = {
   },
 
   rules: {
-    /**
-     * import
-     */
+    // ==========
+    // import
+    // ==========
     'import/no-extraneous-dependencies': [
       'error',
       {
@@ -58,9 +58,9 @@ module.exports = {
     // This rule somehow reports FP in node esm
     'import/no-unresolved': 'off',
 
-    /**
-     * eslint
-     */
+    // ==========
+    // eslint
+    // ==========
     'sort-imports': [
       'warn',
       {
