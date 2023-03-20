@@ -15,19 +15,19 @@
   },
   "prettier": "prettier-config-vuepress",
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@lerna-lite/cli": "^1.13.0",
-    "eslint": "^8.28.0",
+    "@commitlint/cli": "^17.4.4",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@lerna-lite/cli": "^1.17.0",
+    "eslint": "^8.36.0",
     "eslint-config-vuepress": "workspace:*",
     "eslint-config-vuepress-typescript": "workspace:*",
-    "husky": "^8.0.2",
-    "lint-staged": "^13.0.4",
-    "prettier": "^2.8.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "^2.8.5",
     "prettier-config-vuepress": "workspace:*",
-    "sort-package-json": "^2.1.0",
+    "sort-package-json": "^2.4.1",
     "tsconfig-vuepress": "workspace:*",
-    "typescript": "^4.9.3"
+    "typescript": "^5.0.2"
   },
   "pnpm": {
     "peerDependencyRules": {
