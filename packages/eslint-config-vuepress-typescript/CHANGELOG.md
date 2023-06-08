@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/vuepress/configs/compare/v4.1.0...v4.1.1) (2023-06-08)
+
+**Note:** Version bump only for package eslint-config-vuepress-typescript
+
 # [4.1.0](https://github.com/vuepress/configs/compare/v4.0.4...v4.1.0) (2023-03-20)
 
 **Note:** Version bump only for package eslint-config-vuepress-typescript
