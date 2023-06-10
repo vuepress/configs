@@ -32,6 +32,7 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "stripInternal": true,
+    "verbatimModuleSyntax": true,
     "useUnknownInCatchVariables": true
   }
 }
