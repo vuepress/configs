@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/vuepress/configs/compare/v4.1.1...v4.2.0) (2023-06-30)
+
+### Features
+
+- **tsconfig-vuepress:** enable verbatimModuleSyntax ([c8eeb2b](https://github.com/vuepress/configs/commit/c8eeb2bfbef2d4d5ae56df4585e0969977887109))
+
 # [4.1.0](https://github.com/vuepress/configs/compare/v4.0.4...v4.1.0) (2023-03-20)
 
 ### Features
