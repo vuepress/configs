@@ -18,19 +18,6 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-n": "^16.0.1",
-    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1"
-  },
-  "peerDependencies": {
-    "prettier": "^2.8.5",
-    "prettier-config-vuepress": "*"
-  },
-  "peerDependenciesMeta": {
-    "prettier": {
-      "optional": true
-    },
-    "prettier-config-vuepress": {
-      "optional": true
-    }
   }
 }

@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    'standard',
-    'plugin:import/recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['standard', 'plugin:import/recommended', 'prettier'],
 
   parserOptions: {
     sourceType: 'module',

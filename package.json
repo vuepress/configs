@@ -2,13 +2,14 @@
   "name": "@vuepress/configs",
   "private": true,
   "scripts": {
-    "lint": "eslint packages",
+    "format": "prettier --write packages",
+    "lint": "eslint packages && prettier --check packages",
     "lint:all": "eslint --ext .js,.ts,.vue .",
     "prepare": "husky install",
     "release": "pnpm lint && lerna publish"
   },
   "lint-staged": {
-    "*.{json,md}": "prettier --write",
+    "!(test)/**/*": "prettier --write --ignore-unknown",
     "!(test)/**/*.js": "eslint --fix",
     ".*.js": "eslint --fix",
     "package.json": "sort-package-json"
@@ -29,18 +30,5 @@
     "sort-package-json": "^2.4.1",
     "tsconfig-vuepress": "workspace:*",
     "typescript": "^5.1.6"
-  },
-  "pnpm": {
-    "peerDependencyRules": {
-      "ignoreMissing": [
-        "@types/node",
-        "eslint",
-        "eslint-plugin-import",
-        "eslint-plugin-n",
-        "eslint-plugin-promise",
-        "prettier",
-        "typescript"
-      ]
-    }
   }
 }
