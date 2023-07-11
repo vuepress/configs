@@ -45,7 +45,7 @@ const fromEntries = (arr) =>
       ...obj,
       [key]: val,
     }),
-    {}
+    {},
   )
 
 module.exports = {
@@ -57,7 +57,7 @@ module.exports = {
       equivalents.map((name) => [
         `@typescript-eslint/${name}`,
         JSON.parse(JSON.stringify(standard.rules[name])),
-      ])
+      ]),
     ),
 
     'camelcase': 'off',
