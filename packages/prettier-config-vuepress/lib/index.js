@@ -21,7 +21,7 @@ module.exports = {
   jsxSingleQuote: false,
 
   // Print trailing commas wherever possible when multi-line
-  trailingComma: 'es5',
+  trailingComma: 'all',
 
   // Print spaces between brackets in object literals.
   bracketSpacing: true,
