@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.6.0](https://github.com/vuepress/configs/compare/v4.5.0...v4.6.0) (2023-08-30)
+
+### Features
+
+* **eslint-config-vuepress-typescript:** remove type-checked rules ([e2a1b00](https://github.com/vuepress/configs/commit/e2a1b00713a9f4b6ca149e3e78451faee8610b1a))
+
 # [4.5.0](https://github.com/vuepress/configs/compare/v4.4.0...v4.5.0) (2023-08-30)
 
 ### Features
