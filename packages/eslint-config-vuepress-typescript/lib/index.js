@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended-type-checked',
-    'plugin:@typescript-eslint/stylistic-type-checked',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/stylistic',
     'vuepress',
     'plugin:vue/vue3-recommended',
     'plugin:import/typescript',
