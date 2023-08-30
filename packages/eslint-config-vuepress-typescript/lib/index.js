@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'vuepress',
     'plugin:vue/vue3-recommended',
     'plugin:import/typescript',
@@ -28,10 +29,12 @@ module.exports = {
         allowHigherOrderFunctions: true,
       },
     ],
+    '@typescript-eslint/no-import-type-side-effects': 'warn',
 
     // ==========
     // import
     // ==========
+    'import/consistent-type-specifier-style': ['warn', 'prefer-top-level'],
     'import/no-cycle': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
