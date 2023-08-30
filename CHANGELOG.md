@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/vuepress/configs/compare/v4.4.0...v4.5.0) (2023-08-30)
+
+### Features
+
+* **eslint-config-vuepress-typescript:** specify type import style ([29ece68](https://github.com/vuepress/configs/commit/29ece68c60dd24ca9c3bd5ea8a9111196412ed90))
+* **tsconfig-vuepress:** enable isolatedModules ([8c38f25](https://github.com/vuepress/configs/commit/8c38f25bf6344480f9a1d5c92bc31e591702dc47))
+
 # [4.4.0](https://github.com/vuepress/configs/compare/v4.3.0...v4.4.0) (2023-07-11)
 
 ### Features

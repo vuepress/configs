@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/vuepress/configs/compare/v4.4.0...v4.5.0) (2023-08-30)
+
+### Features
+
+* **tsconfig-vuepress:** enable isolatedModules ([8c38f25](https://github.com/vuepress/configs/commit/8c38f25bf6344480f9a1d5c92bc31e591702dc47))
+
 # [4.2.0](https://github.com/vuepress/configs/compare/v4.1.1...v4.2.0) (2023-06-30)
 
 ### Features

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/vuepress/configs/compare/v4.4.0...v4.5.0) (2023-08-30)
+
+### Features
+
+* **eslint-config-vuepress-typescript:** specify type import style ([29ece68](https://github.com/vuepress/configs/commit/29ece68c60dd24ca9c3bd5ea8a9111196412ed90))
+
 # [4.4.0](https://github.com/vuepress/configs/compare/v4.3.0...v4.4.0) (2023-07-11)
 
 **Note:** Version bump only for package eslint-config-vuepress-typescript
