@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.8.0](https://github.com/vuepress/configs/compare/v4.7.0...v4.8.0) (2023-12-09)
+
+### Features
+
+* **eslint-config-vuepress:** exclude e2e files from import/no-extraneous-dependencies ([f3a21b1](https://github.com/vuepress/configs/commit/f3a21b1e524ec9b6504f52c6790faaf8f46d2d8a))
+
 # [4.7.0](https://github.com/vuepress/configs/compare/v4.6.0...v4.7.0) (2023-11-29)
 
 ### Features
