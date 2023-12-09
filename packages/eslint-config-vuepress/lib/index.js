@@ -30,7 +30,7 @@ module.exports = {
           '**/__tests__/**',
           '**/__mocks__/**',
           '**/.vuepress/**',
-          '**/*.{test,spec}.{js.ts}',
+          '**/*.{cy,spec,test}.{js.ts}',
           '**/.commitlintrc.{js,cjs}',
           '**/.eslintrc.{js,cjs}',
           '**/cypress.config.{js.ts}',
