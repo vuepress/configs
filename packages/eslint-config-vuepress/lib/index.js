@@ -24,6 +24,7 @@ module.exports = {
       'error',
       {
         devDependencies: [
+          '**/e2e/**',
           '**/tests/**',
           '**/test/**',
           '**/__tests__/**',
@@ -32,6 +33,7 @@ module.exports = {
           '**/*.{test,spec}.{js.ts}',
           '**/.commitlintrc.{js,cjs}',
           '**/.eslintrc.{js,cjs}',
+          '**/cypress.config.{js.ts}',
           '**/tsup.config.{js.ts}',
           '**/vitest.config.{js.ts}',
           '**/vuepress.config.{js.ts}',
