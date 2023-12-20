@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0](https://github.com/vuepress/configs/compare/v4.8.0...v4.9.0) (2023-12-20)
+
+### Features
+
+* **eslint-config-vuepress:** exclude cy files from import/no-extraneous-dependencies ([3370715](https://github.com/vuepress/configs/commit/33707150419897dda6efe83ceaa33c928e4bf380))
+* **eslint-config-vuepress:** set ecmaVersion to latest ([da7a2b2](https://github.com/vuepress/configs/commit/da7a2b2ad4fff483e97dd4292ac7f8a23a4680e9))
+
 # [4.8.0](https://github.com/vuepress/configs/compare/v4.7.0...v4.8.0) (2023-12-09)
 
 ### Features
