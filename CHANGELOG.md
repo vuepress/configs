@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.10.0](https://github.com/vuepress/configs/compare/v4.9.0...v4.10.0) (2023-12-27)
+
+### Features
+
+* **eslint-config-vuepress:** allow peerDependencies to be imported (close [#8](https://github.com/vuepress/configs/issues/8)) ([b37ff8e](https://github.com/vuepress/configs/commit/b37ff8e716848e7fdaa50fae1a12f8c12b35e66d))
+
 # [4.9.0](https://github.com/vuepress/configs/compare/v4.8.0...v4.9.0) (2023-12-20)
 
 ### Features
