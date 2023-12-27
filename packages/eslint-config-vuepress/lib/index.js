@@ -39,7 +39,7 @@ module.exports = {
           '**/vuepress.config.{js.ts}',
         ],
         optionalDependencies: false,
-        peerDependencies: false,
+        peerDependencies: true,
       },
     ],
     'import/order': [
