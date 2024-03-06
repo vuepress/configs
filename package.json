@@ -9,9 +9,11 @@
     "release": "pnpm lint && lerna publish"
   },
   "lint-staged": {
-    "!(test)/**/*": "prettier --write --ignore-unknown",
-    "!(test)/**/*.js": "eslint --fix",
-    ".*.js": "eslint --fix",
+    "!(test)/**/*.(js)": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "!(test)/**/*.!(js)": "prettier --write --ignore-unknown",
     "package.json": "sort-package-json"
   },
   "prettier": "prettier-config-vuepress",
