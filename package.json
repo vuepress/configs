@@ -1,12 +1,17 @@
 {
   "name": "@vuepress/configs",
   "private": true,
+  "type": "module",
   "scripts": {
-    "format": "prettier --write packages",
-    "lint": "eslint packages && prettier --check packages",
-    "lint:all": "eslint --ext .js,.ts,.vue .",
+    "build": "pnpm -r run build",
+    "clean": "pnpm -r run clean",
+    "format": "prettier --write .",
+    "lint": "eslint . && prettier --check .",
+    "lint:test": "CHECK_TEST=true eslint test",
     "prepare": "husky",
-    "release": "pnpm lint && lerna publish"
+    "release": "pnpm release:check && pnpm release:publish",
+    "release:check": "pnpm clean && pnpm build && pnpm lint",
+    "release:publish": "lerna publish"
   },
   "lint-staged": {
     "!(test)/**/*.(js)": [
@@ -18,19 +23,21 @@
   },
   "prettier": "prettier-config-vuepress",
   "devDependencies": {
-    "@commitlint/cli": "^19.2.1",
-    "@commitlint/config-conventional": "^19.1.0",
-    "@lerna-lite/cli": "^3.3.1",
-    "@lerna-lite/publish": "^3.3.1",
-    "eslint": "^8.57.0",
+    "@commitlint/cli": "^19.4.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/types": "^19.0.3",
+    "@lerna-lite/cli": "^3.8.0",
+    "@lerna-lite/publish": "^3.8.0",
+    "eslint": "^9.9.0",
     "eslint-config-vuepress": "workspace:*",
-    "eslint-config-vuepress-typescript": "workspace:*",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "prettier": "^3.2.5",
+    "husky": "^9.1.4",
+    "lint-staged": "^15.2.9",
+    "prettier": "^3.3.3",
     "prettier-config-vuepress": "workspace:*",
-    "sort-package-json": "^2.8.0",
+    "sort-package-json": "^2.10.0",
     "tsconfig-vuepress": "workspace:*",
-    "typescript": "^5.4.3"
-  }
+    "typescript": "^5.5.4",
+    "unbuild": "^2.0.0"
+  },
+  "packageManager": "pnpm@9.7.1"
 }

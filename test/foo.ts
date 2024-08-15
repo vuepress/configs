@@ -1,12 +1,12 @@
 import Vue from 'vue'
 
-let foo_bar = "foo_bar"
+let foo_bar = 'foo_bar'
 
-const FooBar = "FooBar"
+const FooBar = 'FooBar'
 
-const FOO_BAR = "FOO_BAR"
+const FOO_BAR = 'FOO_BAR'
 
-const fooBar = "fooBar"
+const fooBar = 'fooBar'
 
 const __FOO_BAR__ = '__FOO_BAR__'
 

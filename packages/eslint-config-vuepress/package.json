@@ -9,15 +9,25 @@
   },
   "license": "MIT",
   "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
-  "main": "lib/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "lib"
+    "./dist"
   ],
+  "scripts": {
+    "build": "unbuild",
+    "clean": "rimraf ./dist"
+  },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1"
+    "@meteorlxy/eslint-config": "^4.0.1",
+    "@typescript-eslint/utils": "^8.1.0",
+    "eslint-plugin-vue": "^9.27.0"
   }
 }

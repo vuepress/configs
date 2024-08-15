@@ -12,22 +12,12 @@ npm i -D eslint-config-vuepress
 
 ## Usage
 
-Create `.eslintrc.js`:
+Create `eslint.config.js`:
 
 ```js
-module.exports = {
-  extends: ['vuepress'],
+import { vuepress } from 'eslint-config-vuepress'
 
-  rules: {
-    // override rules
-  },
-}
-```
-
-Create `.eslintignore`:
-
-```
-!.vuepress
+export default vuepress()
 ```
 
 ## License

@@ -1,15 +1,7 @@
-<template>
-  <input v-model="bar" id="foo" />
-</template>
-
-<script lang="ts">
-const foobar: any = ""
-
-export default {
-  name: 'foo',
-
-  data: () => ({
-    bar: ''
-  }),
-}
+<script lang="ts" setup>
+const foobar: any = ''
 </script>
+
+<template>
+  <input v-model="foobar" id="foo" />
+</template>

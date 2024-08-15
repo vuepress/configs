@@ -5,7 +5,6 @@
 ## Packages
 
 - [eslint-config-vuepress](https://github.com/vuepress/configs/tree/main/packages/eslint-config-vuepress)
-- [eslint-config-vuepress-typescript](https://github.com/vuepress/configs/tree/main/packages/eslint-config-vuepress-typescript)
 - [prettier-config-vuepress](https://github.com/vuepress/configs/tree/main/packages/prettier-config-vuepress)
 - [tsconfig-vuepress](https://github.com/vuepress/configs/tree/main/packages/tsconfig-vuepress)
 
