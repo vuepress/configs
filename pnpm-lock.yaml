@@ -60,8 +60,8 @@ importers:
   packages/eslint-config-vuepress:
     dependencies:
       '@meteorlxy/eslint-config':
-        specifier: ^4.1.0
-        version: 4.1.0(eslint-plugin-vue@9.27.0(eslint@9.9.0(jiti@1.21.6)))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.9.0(jiti@1.21.6)))
+        specifier: ^4.2.0
+        version: 4.2.0(eslint-plugin-vue@9.27.0(eslint@9.9.0(jiti@1.21.6)))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.9.0(jiti@1.21.6)))
       '@typescript-eslint/utils':
         specifier: ^8.1.0
         version: 8.1.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
@@ -637,8 +637,8 @@ packages:
     resolution: {integrity: sha512-G395hZQQdzUHeIeGrYet8FuvZofahmukbhrKadlMal1Xz25kpzYG0yNPSXu2VKKjwip2KZixfmIDB35vRyFcHQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
 
-  '@meteorlxy/eslint-config@4.1.0':
-    resolution: {integrity: sha512-Dcrqb4d0SNOlK/LdrHQny01ysGDZd3X6bjg/SYLbQbmODJUj2hiux2pM4j2H0Cy9lZ9/FoNLwvpelkHf3SBu4g==}
+  '@meteorlxy/eslint-config@4.2.0':
+    resolution: {integrity: sha512-G8K9Is7bkG0d/eumMxWOS86C2w7ulaAlVM1p2bja3NAgCmwQqeOiGsYrsmrhLhGO/H/rb2c9gRnxZ7WbApM+PQ==}
     peerDependencies:
       eslint-plugin-react: ^7.35.0
       eslint-plugin-react-hooks: ^4.6.2
@@ -3959,7 +3959,7 @@ snapshots:
       - supports-color
       - typescript
 
-  '@meteorlxy/eslint-config@4.1.0(eslint-plugin-vue@9.27.0(eslint@9.9.0(jiti@1.21.6)))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.9.0(jiti@1.21.6)))':
+  '@meteorlxy/eslint-config@4.2.0(eslint-plugin-vue@9.27.0(eslint@9.9.0(jiti@1.21.6)))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)(vue-eslint-parser@9.4.3(eslint@9.9.0(jiti@1.21.6)))':
     dependencies:
       '@typescript-eslint/eslint-plugin': 8.1.0(@typescript-eslint/parser@8.1.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
       '@typescript-eslint/parser': 8.1.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
