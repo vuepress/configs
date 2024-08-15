@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/vuepress/configs/compare/v5.0.0...v5.1.0) (2024-08-15)
+
+### Features
+
+* **eslint-config:** support custom configs ([a6442a0](https://github.com/vuepress/configs/commit/a6442a07c3f0ebfd34b06a0f05a01173e46360a6))
+
 # [5.0.0](https://github.com/vuepress/configs/compare/v4.10.1...v5.0.0) (2024-08-15)
 
 ### Features
