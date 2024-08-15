@@ -1,12 +1,14 @@
 {
   "npmClient": "pnpm",
-  "version": "4.10.1",
+  "version": "5.0.0",
   "command": {
     "version": {
       "allowBranch": "main",
       "conventionalCommits": true,
       "exact": true,
-      "ignoreChanges": ["**/*.md"],
+      "ignoreChanges": [
+        "**/*.md"
+      ],
       "message": "build: publish %s"
     }
   }

@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/vuepress/configs/compare/v4.10.1...v5.0.0) (2024-08-15)
+
+### Features
+
+* **tsconfig-vuepress:** remove ts 5.5 disabled compiler options ([bcbfe34](https://github.com/vuepress/configs/commit/bcbfe3436c1ef7ef368b6e61cdf2e210e561174d))
+
 # [4.5.0](https://github.com/vuepress/configs/compare/v4.4.0...v4.5.0) (2023-08-30)
 
 ### Features
