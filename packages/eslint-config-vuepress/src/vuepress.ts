@@ -4,6 +4,7 @@ import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint'
 
 export const vuepress = async (
   options: EslintOptions,
+  ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> =>
   meteorlxy(
     {
@@ -11,6 +12,7 @@ export const vuepress = async (
       ...options,
     },
     {
+      name: 'vuepress/base',
       languageOptions: {
         globals: {
           __VUEPRESS_VERSION__: 'readonly',
@@ -23,4 +25,5 @@ export const vuepress = async (
         },
       },
     },
+    ...customConfigs,
   )
