@@ -2,18 +2,24 @@ import type { EslintOptions } from '@meteorlxy/eslint-config'
 import { meteorlxy } from '@meteorlxy/eslint-config'
 import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint'
 
+export interface VuepressOptions extends Omit<EslintOptions, 'react'> {
+  vue: Exclude<EslintOptions['vue'], boolean>
+}
+
 export const vuepress = async (
-  options: EslintOptions,
+  options: VuepressOptions,
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> =>
   meteorlxy(
     {
+      ...options,
       vue: {
+        ...options.vue,
         overrides: {
           'vue/multi-word-component-names': ['error', { ignores: ['Layout'] }],
+          ...options.vue?.overrides,
         },
       },
-      ...options,
     },
     {
       name: 'vuepress/base',
