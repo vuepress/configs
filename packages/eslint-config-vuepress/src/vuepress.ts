@@ -8,7 +8,11 @@ export const vuepress = async (
 ): Promise<FlatConfig.Config[]> =>
   meteorlxy(
     {
-      vue: true,
+      vue: {
+        overrides: {
+          'vue/multi-word-component-names': ['error', { ignores: ['Layout'] }],
+        },
+      },
       ...options,
     },
     {
