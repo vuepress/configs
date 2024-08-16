@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.1](https://github.com/vuepress/configs/compare/v5.1.0...v5.1.1) (2024-08-16)
+
+### Bug Fixes
+
+* **eslint-config:** ignore Layout for multi-word-component-names ([36fe909](https://github.com/vuepress/configs/commit/36fe909a2e4f928adbe5d54a6b23168fd3387404))
+
 # [5.1.0](https://github.com/vuepress/configs/compare/v5.0.0...v5.1.0) (2024-08-15)
 
 ### Features
