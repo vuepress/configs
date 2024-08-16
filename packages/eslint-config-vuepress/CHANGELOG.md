@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.2](https://github.com/vuepress/configs/compare/v5.1.1...v5.1.2) (2024-08-16)
+
+### Bug Fixes
+
+* **eslint-config:** fix vue option ([9acf207](https://github.com/vuepress/configs/commit/9acf207b0d2ed230354de5f5c7e70d0f4b05f3e5))
+
 ## [5.1.1](https://github.com/vuepress/configs/compare/v5.1.0...v5.1.1) (2024-08-16)
 
 ### Bug Fixes
