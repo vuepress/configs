@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.4](https://github.com/vuepress/configs/compare/v5.1.3...v5.1.4) (2024-08-18)
+
+### Bug Fixes
+
+* **eslint-config:** allow __dirname as var name ([178fe68](https://github.com/vuepress/configs/commit/178fe6807ffebaf7ef977618c4464168320e065c))
+* **eslint-config:** remove __VUE_OPTIONS_API__ from globals ([18ee4b9](https://github.com/vuepress/configs/commit/18ee4b9d105d55d1749bd88ea405ff8988ad20d1))
+
 ## [5.1.3](https://github.com/vuepress/configs/compare/v5.1.2...v5.1.3) (2024-08-18)
 
 **Note:** Version bump only for package eslint-config-vuepress
