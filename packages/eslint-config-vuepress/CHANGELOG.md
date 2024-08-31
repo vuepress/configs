@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.5](https://github.com/vuepress/configs/compare/v5.1.4...v5.1.5) (2024-08-31)
+
+### Bug Fixes
+
+* **eslint-config:** make args optional ([9ff5e4a](https://github.com/vuepress/configs/commit/9ff5e4aa797cb01bfcf7f03bf2473802781895d9))
+
 ## [5.1.4](https://github.com/vuepress/configs/compare/v5.1.3...v5.1.4) (2024-08-18)
 
 ### Bug Fixes
