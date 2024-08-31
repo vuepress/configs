@@ -8,7 +8,7 @@ export interface VuepressOptions extends Omit<EslintOptions, 'react'> {
 }
 
 export const vuepress = async (
-  options: VuepressOptions,
+  options: VuepressOptions = {},
   ...customConfigs: FlatConfig.Config[]
 ): Promise<FlatConfig.Config[]> =>
   meteorlxy(
