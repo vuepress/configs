@@ -26,7 +26,7 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@meteorlxy/eslint-config": "^4.3.2",
+    "@meteorlxy/eslint-config": "^4.4.0",
     "@typescript-eslint/utils": "^8.4.0",
     "eslint-plugin-vue": "^9.28.0"
   }
