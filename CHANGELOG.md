@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.6](https://github.com/vuepress/configs/compare/v5.1.5...v5.1.6) (2024-09-03)
+
+**Note:** Version bump only for package @vuepress/configs
+
 ## [5.1.5](https://github.com/vuepress/configs/compare/v5.1.4...v5.1.5) (2024-08-31)
 
 ### Bug Fixes
