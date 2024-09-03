@@ -1,0 +1,14 @@
+{
+  "name": "@vuepress/configs-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint-config-vuepress": "workspace:*"
+  }
+}

@@ -1,8 +1,5 @@
-import process from 'node:process'
-import { env, vuepress } from 'eslint-config-vuepress'
-
-const shouldCheckTest = process.env.CHECK_TEST === 'true' || env.IS_EDITOR
+import { vuepress } from 'eslint-config-vuepress'
 
 export default vuepress({
-  ignores: shouldCheckTest ? [] : ['test/**'],
+  ignores: ['test/**'],
 })

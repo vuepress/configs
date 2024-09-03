@@ -1,17 +1,11 @@
 {
   "extends": "tsconfig-vuepress/base.json",
   "compilerOptions": {
-    "jsx": "preserve",
     "lib": ["ES2022"],
     "module": "ES2022",
     "moduleResolution": "Bundler",
     "target": "ES2022"
   },
-  "include": [
-    "./packages/**/*",
-    "./test/**/*",
-    "./test/**/*.vue",
-    "commitlint.config.ts"
-  ],
+  "include": ["./packages/**/*", "*.config.ts"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }
