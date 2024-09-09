@@ -25,9 +25,9 @@
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
     "@commitlint/types": "^19.0.3",
-    "@lerna-lite/cli": "^3.9.0",
-    "@lerna-lite/publish": "^3.9.0",
-    "eslint": "^9.9.1",
+    "@lerna-lite/cli": "^3.9.1",
+    "@lerna-lite/publish": "^3.9.1",
+    "eslint": "^9.10.0",
     "eslint-config-vuepress": "workspace:*",
     "husky": "^9.1.5",
     "lint-staged": "^15.2.10",
@@ -39,5 +39,5 @@
     "typescript": "^5.6.2",
     "unbuild": "^2.0.0"
   },
-  "packageManager": "pnpm@9.9.0"
+  "packageManager": "pnpm@9.10.0"
 }
