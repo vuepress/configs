@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/vuepress/configs/compare/v5.1.6...v5.2.0) (2024-09-09)
+
+### Features
+
+* **tsconfig:** upgrade typescript to 5.6 and enable new compiler options ([950b4ab](https://github.com/vuepress/configs/commit/950b4ab9dbe22beeb593e422c5dd2f00c0016555))
+
 ## [5.1.6](https://github.com/vuepress/configs/compare/v5.1.5...v5.1.6) (2024-09-03)
 
 **Note:** Version bump only for package @vuepress/configs
