@@ -19,6 +19,7 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noPropertyAccessFromIndexSignature": false,
+    "noStrictGenericChecks": false,
     "noUncheckedIndexedAccess": false,
     "noUncheckedSideEffectImports": true,
     "noUnusedLocals": false,
