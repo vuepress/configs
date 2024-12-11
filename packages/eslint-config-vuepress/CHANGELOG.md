@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.4](https://github.com/vuepress/configs/compare/v5.2.3...v5.2.4) (2024-12-11)
+
+**Note:** Version bump only for package eslint-config-vuepress
+
 ## [5.2.3](https://github.com/vuepress/configs/compare/v5.2.2...v5.2.3) (2024-12-04)
 
 **Note:** Version bump only for package eslint-config-vuepress
