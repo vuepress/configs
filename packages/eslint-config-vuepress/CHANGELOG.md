@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/vuepress/configs/compare/v5.2.5...v6.0.0) (2025-04-22)
+
+### Features
+
+* **eslint-config:** support gitignore plugin ([aa8db92](https://github.com/vuepress/configs/commit/aa8db9292d3f5d66f305bb447a723718ffaf36ae))
+
+### BREAKING CHANGES
+
+* **eslint-config:** the `ignores` option has been moved to `ignores.files`
+
 ## [5.2.5](https://github.com/vuepress/configs/compare/v5.2.4...v5.2.5) (2025-04-09)
 
 **Note:** Version bump only for package eslint-config-vuepress
