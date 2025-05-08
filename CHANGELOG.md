@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/vuepress/configs/compare/v6.0.0...v7.0.0) (2025-05-08)
+
+### Build System
+
+* drop node 18 ([07b6bed](https://github.com/vuepress/configs/commit/07b6beda3d1d257b733c3caafbb9c138604d6350))
+
+### BREAKING CHANGES
+
+* drop node 18
+
 # [6.0.0](https://github.com/vuepress/configs/compare/v5.2.5...v6.0.0) (2025-04-22)
 
 ### Features

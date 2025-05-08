@@ -1,6 +1,6 @@
 {
   "name": "prettier-config-vuepress",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "Prettier config for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "repository": {
