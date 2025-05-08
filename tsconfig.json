@@ -1,10 +1,10 @@
 {
   "extends": "tsconfig-vuepress/base.json",
   "compilerOptions": {
-    "lib": ["ES2022"],
+    "lib": ["ES2023"],
     "module": "ES2022",
     "moduleResolution": "Bundler",
-    "target": "ES2022"
+    "target": "ES2023"
   },
   "include": ["./packages/**/*", "*.config.ts"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
