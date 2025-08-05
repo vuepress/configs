@@ -26,6 +26,6 @@
     "clean": "rimraf ./dist"
   },
   "devDependencies": {
-    "unbuild": "^3.5.0"
+    "unbuild": "^3.6.0"
   }
 }
