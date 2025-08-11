@@ -16,7 +16,7 @@ catalogs:
     rimraf: ^6.0.1
     sort-package-json: ^3.4.0
     typescript: ^5.9.2
-    unbuild: ^3.6.0
+    tsdown: ^0.14.0
 
   dev-test:
     vue: ^3.5.18

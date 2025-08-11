@@ -36,8 +36,7 @@
     "rimraf": "catalog:dev",
     "sort-package-json": "catalog:dev",
     "tsconfig-vuepress": "workspace:*",
-    "typescript": "catalog:dev",
-    "unbuild": "catalog:dev"
+    "typescript": "catalog:dev"
   },
   "packageManager": "pnpm@10.14.0",
   "pnpm": {
