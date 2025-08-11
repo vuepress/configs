@@ -6,7 +6,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "vue": "^3.5.18"
+    "vue": "catalog:dev-test"
   },
   "devDependencies": {
     "eslint-config-vuepress": "workspace:*"
