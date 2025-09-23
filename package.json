@@ -38,7 +38,7 @@
     "tsconfig-vuepress": "workspace:*",
     "typescript": "catalog:dev"
   },
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.17.1",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
