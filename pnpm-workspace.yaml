@@ -4,25 +4,25 @@ packages:
 
 catalogs:
   dev:
-    '@commitlint/cli': ^19.8.1
-    '@commitlint/config-conventional': ^19.8.1
-    '@commitlint/types': ^19.8.1
-    '@lerna-lite/cli': ^4.8.0
-    '@lerna-lite/publish': ^4.8.0
-    eslint: ^9.36.0
+    '@commitlint/cli': ^20.1.0
+    '@commitlint/config-conventional': ^20.0.0
+    '@commitlint/types': ^20.0.0
+    '@lerna-lite/cli': ^4.9.0
+    '@lerna-lite/publish': ^4.9.0
+    eslint: ^9.37.0
     husky: ^9.1.7
-    lint-staged: ^16.2.0
+    lint-staged: ^16.2.4
     prettier: ^3.6.2
     rimraf: ^6.0.1
     sort-package-json: ^3.4.0
-    typescript: ^5.9.2
-    tsdown: ^0.15.4
+    typescript: ^5.9.3
+    tsdown: ^0.15.7
 
   dev-test:
-    vue: ^3.5.21
+    vue: ^3.5.22
 
   prod:
-    '@meteorlxy/eslint-config': ^6.6.2
-    '@typescript-eslint/utils': ^8.44.1
+    '@meteorlxy/eslint-config': ^6.7.0
+    '@typescript-eslint/utils': ^8.46.1
     eslint-plugin-vue: ^10.5.0
     vue-eslint-parser: ^10.2.0
