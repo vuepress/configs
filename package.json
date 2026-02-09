@@ -4,13 +4,14 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r run build",
+    "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
     "format": "prettier --write .",
     "lint": "eslint . && prettier --check .",
     "prepare": "husky",
-    "release": "pnpm release:check && pnpm release:publish",
-    "release:check": "pnpm clean && pnpm build && pnpm lint",
-    "release:publish": "lerna publish"
+    "release": "pnpm release:check && pnpm release:version",
+    "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
+    "release:version": "lerna version"
   },
   "lint-staged": {
     "!(test)/**/*.(js)": [
@@ -27,6 +28,7 @@
     "@commitlint/types": "catalog:dev",
     "@lerna-lite/cli": "catalog:dev",
     "@lerna-lite/publish": "catalog:dev",
+    "@types/node": "catalog:dev",
     "eslint": "catalog:dev",
     "eslint-config-vuepress": "workspace:*",
     "husky": "catalog:dev",
@@ -38,7 +40,7 @@
     "tsconfig-vuepress": "workspace:*",
     "typescript": "catalog:dev"
   },
-  "packageManager": "pnpm@10.18.3",
+  "packageManager": "pnpm@10.29.2",
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
