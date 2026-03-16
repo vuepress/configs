@@ -1,5 +1,5 @@
 {
-  "extends": "tsconfig-vuepress/base.json",
+  "extends": "@vuepress/tsconfig/base.json",
   "compilerOptions": {
     "lib": ["ES2023"],
     "module": "ES2022",

@@ -1,4 +1,4 @@
-# tsconfig-vuepress
+# @vuepress/tsconfig
 
 > TSConfig for VuePress Team
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```sh
-npm i -D tsconfig-vuepress
+npm i -D @vuepress/tsconfig
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ In `tsconfig.json`:
 
 ```json
 {
-  "extends": "tsconfig-vuepress/base.json"
+  "extends": "@vuepress/tsconfig/base.json"
 }
 ```
 

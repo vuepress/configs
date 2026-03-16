@@ -1,5 +1,5 @@
 {
-  "name": "tsconfig-vuepress",
+  "name": "@vuepress/tsconfig",
   "version": "7.0.0",
   "description": "TSConfig for VuePress Team",
   "homepage": "https://github.com/vuepress",
@@ -11,5 +11,8 @@
   "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
   "files": [
     "base.json"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

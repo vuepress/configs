@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-vuepress",
+  "name": "@vuepress/eslint-config",
   "version": "7.1.0",
   "description": "ESLint config for VuePress Team",
   "homepage": "https://github.com/vuepress",
@@ -36,7 +36,7 @@
   "devDependencies": {
     "tsdown": "catalog:dev"
   },
-  "engines": {
-    "node": ">=20.0.0"
+  "publishConfig": {
+    "access": "public"
   }
 }

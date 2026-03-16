@@ -88,12 +88,18 @@ importers:
       '@types/node':
         specifier: catalog:dev
         version: 25.5.0
+      '@vuepress/eslint-config':
+        specifier: workspace:*
+        version: link:packages/eslint-config
+      '@vuepress/prettier-config':
+        specifier: workspace:*
+        version: link:packages/prettier-config
+      '@vuepress/tsconfig':
+        specifier: workspace:*
+        version: link:packages/tsconfig
       eslint:
         specifier: catalog:dev
         version: 9.39.4(jiti@2.6.1)
-      eslint-config-vuepress:
-        specifier: workspace:*
-        version: link:packages/eslint-config-vuepress
       husky:
         specifier: catalog:dev
         version: 9.1.7
@@ -103,23 +109,17 @@ importers:
       prettier:
         specifier: catalog:dev
         version: 3.8.1
-      prettier-config-vuepress:
-        specifier: workspace:*
-        version: link:packages/prettier-config-vuepress
       rimraf:
         specifier: catalog:dev
         version: 6.1.3
       sort-package-json:
         specifier: catalog:dev
         version: 3.6.1
-      tsconfig-vuepress:
-        specifier: workspace:*
-        version: link:packages/tsconfig-vuepress
       typescript:
         specifier: catalog:dev
         version: 5.9.3
 
-  packages/eslint-config-vuepress:
+  packages/eslint-config:
     dependencies:
       '@meteorlxy/eslint-config':
         specifier: catalog:prod
@@ -138,13 +138,13 @@ importers:
         specifier: catalog:dev
         version: 0.21.3(synckit@0.11.12)(typescript@5.9.3)
 
-  packages/prettier-config-vuepress:
+  packages/prettier-config:
     devDependencies:
       tsdown:
         specifier: catalog:dev
         version: 0.21.3(synckit@0.11.12)(typescript@5.9.3)
 
-  packages/tsconfig-vuepress: {}
+  packages/tsconfig: {}
 
   test:
     dependencies:
@@ -152,9 +152,9 @@ importers:
         specifier: catalog:dev-test
         version: 3.5.30(typescript@5.9.3)
     devDependencies:
-      eslint-config-vuepress:
+      '@vuepress/eslint-config':
         specifier: workspace:*
-        version: link:../packages/eslint-config-vuepress
+        version: link:../packages/eslint-config
 
 packages:
 

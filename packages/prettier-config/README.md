@@ -1,23 +1,23 @@
-# eslint-config-vuepress
+# @vuepress/prettier-config
 
-> ESLint config for VuePress Team
+> Prettier config for VuePress Team
 
 **DO NOT use it in your own project if you don't know what it's for**
 
 ## Install
 
 ```sh
-npm i -D eslint-config-vuepress
+npm i -D @vuepress/prettier-config
 ```
 
 ## Usage
 
-Create `eslint.config.js`:
+In `package.json`:
 
-```js
-import { vuepress } from 'eslint-config-vuepress'
-
-export default vuepress()
+```json
+{
+  "prettier": "@vuepress/prettier-config"
+}
 ```
 
 ## License

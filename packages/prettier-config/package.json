@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config-vuepress",
+  "name": "@vuepress/prettier-config",
   "version": "7.1.0",
   "description": "Prettier config for VuePress Team",
   "homepage": "https://github.com/vuepress",
@@ -30,7 +30,7 @@
   "devDependencies": {
     "tsdown": "catalog:dev"
   },
-  "engines": {
-    "node": ">=20.0.0"
+  "publishConfig": {
+    "access": "public"
   }
 }

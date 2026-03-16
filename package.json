@@ -21,7 +21,7 @@
     "!(test)/**/*.!(js)": "prettier --write --ignore-unknown",
     "package.json": "sort-package-json"
   },
-  "prettier": "prettier-config-vuepress",
+  "prettier": "@vuepress/prettier-config",
   "devDependencies": {
     "@commitlint/cli": "catalog:dev",
     "@commitlint/config-conventional": "catalog:dev",
@@ -29,15 +29,15 @@
     "@lerna-lite/cli": "catalog:dev",
     "@lerna-lite/publish": "catalog:dev",
     "@types/node": "catalog:dev",
+    "@vuepress/eslint-config": "workspace:*",
+    "@vuepress/prettier-config": "workspace:*",
+    "@vuepress/tsconfig": "workspace:*",
     "eslint": "catalog:dev",
-    "eslint-config-vuepress": "workspace:*",
     "husky": "catalog:dev",
     "lint-staged": "catalog:dev",
     "prettier": "catalog:dev",
-    "prettier-config-vuepress": "workspace:*",
     "rimraf": "catalog:dev",
     "sort-package-json": "catalog:dev",
-    "tsconfig-vuepress": "workspace:*",
     "typescript": "catalog:dev"
   },
   "packageManager": "pnpm@10.32.1",

@@ -9,6 +9,6 @@
     "vue": "catalog:dev-test"
   },
   "devDependencies": {
-    "eslint-config-vuepress": "workspace:*"
+    "@vuepress/eslint-config": "workspace:*"
   }
 }

@@ -4,9 +4,9 @@
 
 ## Packages
 
-- [eslint-config-vuepress](https://github.com/vuepress/configs/tree/main/packages/eslint-config-vuepress)
-- [prettier-config-vuepress](https://github.com/vuepress/configs/tree/main/packages/prettier-config-vuepress)
-- [tsconfig-vuepress](https://github.com/vuepress/configs/tree/main/packages/tsconfig-vuepress)
+- [@vuepress/eslint-config](https://github.com/vuepress/configs/tree/main/packages/eslint-config)
+- [@vuepress/prettier-config](https://github.com/vuepress/configs/tree/main/packages/prettier-config)
+- [@vuepress/tsconfig](https://github.com/vuepress/configs/tree/main/packages/tsconfig)
 
 ## License
 

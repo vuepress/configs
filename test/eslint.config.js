@@ -1,3 +1,3 @@
-import { vuepress } from 'eslint-config-vuepress'
+import { vuepress } from '@vuepress/eslint-config'
 
 export default vuepress()
