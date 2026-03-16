@@ -9,6 +9,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * **oxfmt-config:** add oxfmt-config package ([be62ec0](https://github.com/vuepress/configs/commit/be62ec0a6e8884871c3cae02b9e78a42ebb1c1a8))
 
+### BREAKING CHANGES
+
+* Migrate packages to `@vuepress` scope
+
 # [7.1.0](https://github.com/vuepress/configs/compare/v7.0.4...v7.1.0) (2026-02-09)
 
 **Note:** Version bump only for package @vuepress/configs
