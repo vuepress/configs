@@ -24,9 +24,6 @@ catalogs:
     '@types/node':
       specifier: ^25.5.0
       version: 25.5.0
-    eslint:
-      specifier: ^9.39.4
-      version: 9.39.4
     husky:
       specifier: ^9.1.7
       version: 9.1.7
@@ -52,13 +49,13 @@ catalogs:
     vue:
       specifier: ^3.5.30
       version: 3.5.30
-  prod:
+  eslint:
     '@meteorlxy/eslint-config':
       specifier: ^7.1.0
       version: 7.1.0
-    '@typescript-eslint/utils':
-      specifier: ^8.57.0
-      version: 8.57.0
+    eslint:
+      specifier: ^9.39.4
+      version: 9.39.4
     eslint-plugin-vue:
       specifier: ^10.8.0
       version: 10.8.0
@@ -98,7 +95,7 @@ importers:
         specifier: workspace:*
         version: link:packages/tsconfig
       eslint:
-        specifier: catalog:dev
+        specifier: catalog:eslint
         version: 9.39.4(jiti@2.6.1)
       husky:
         specifier: catalog:dev
@@ -122,16 +119,16 @@ importers:
   packages/eslint-config:
     dependencies:
       '@meteorlxy/eslint-config':
-        specifier: catalog:prod
+        specifier: catalog:eslint
         version: 7.1.0(eslint-plugin-vue@10.8.0(@typescript-eslint/parser@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@9.39.4(jiti@2.6.1))))(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)(vue-eslint-parser@10.4.0(eslint@9.39.4(jiti@2.6.1)))
-      '@typescript-eslint/utils':
-        specifier: catalog:prod
-        version: 8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3)
+      eslint:
+        specifier: catalog:eslint
+        version: 9.39.4(jiti@2.6.1)
       eslint-plugin-vue:
-        specifier: catalog:prod
+        specifier: catalog:eslint
         version: 10.8.0(@typescript-eslint/parser@8.57.0(eslint@9.39.4(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.4(jiti@2.6.1))(vue-eslint-parser@10.4.0(eslint@9.39.4(jiti@2.6.1)))
       vue-eslint-parser:
-        specifier: catalog:prod
+        specifier: catalog:eslint
         version: 10.4.0(eslint@9.39.4(jiti@2.6.1))
     devDependencies:
       tsdown:

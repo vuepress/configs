@@ -1,6 +1,6 @@
 import type { EslintOptions } from '@meteorlxy/eslint-config'
 import { meteorlxy, rules } from '@meteorlxy/eslint-config'
-import type { FlatConfig } from '@typescript-eslint/utils/ts-eslint'
+import type { Config } from 'eslint/config'
 import { extendsOverrides } from './utils'
 
 export interface VuepressOptions extends Omit<EslintOptions, 'react'> {
@@ -9,8 +9,8 @@ export interface VuepressOptions extends Omit<EslintOptions, 'react'> {
 
 export const vuepress = async (
   options: VuepressOptions = {},
-  ...customConfigs: FlatConfig.Config[]
-): Promise<FlatConfig.Config[]> =>
+  ...customConfigs: Config[]
+): Promise<Config[]> =>
   meteorlxy(
     extendsOverrides(options, {
       javascript: {

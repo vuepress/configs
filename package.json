@@ -32,7 +32,7 @@
     "@vuepress/eslint-config": "workspace:*",
     "@vuepress/prettier-config": "workspace:*",
     "@vuepress/tsconfig": "workspace:*",
-    "eslint": "catalog:dev",
+    "eslint": "catalog:eslint",
     "husky": "catalog:dev",
     "lint-staged": "catalog:dev",
     "prettier": "catalog:dev",

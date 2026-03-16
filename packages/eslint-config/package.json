@@ -28,13 +28,15 @@
     "clean": "rimraf ./dist"
   },
   "dependencies": {
-    "@meteorlxy/eslint-config": "catalog:prod",
-    "@typescript-eslint/utils": "catalog:prod",
-    "eslint-plugin-vue": "catalog:prod",
-    "vue-eslint-parser": "catalog:prod"
+    "@meteorlxy/eslint-config": "catalog:eslint",
+    "eslint-plugin-vue": "catalog:eslint",
+    "vue-eslint-parser": "catalog:eslint"
   },
   "devDependencies": {
     "tsdown": "catalog:dev"
+  },
+  "peerDependencies": {
+    "eslint": "catalog:eslint"
   },
   "publishConfig": {
     "access": "public"
