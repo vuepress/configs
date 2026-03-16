@@ -1,8 +1,10 @@
-import type { FormatConfig } from 'oxfmt'
+import type { FormatOptions } from 'oxfmt'
 
 import { config } from './config'
 
-export const vuepress = (userConfig?: Partial<FormatConfig>): FormatConfig => ({
+export const vuepress = (
+  userConfig?: Partial<FormatOptions>,
+): FormatOptions => ({
   ...config,
   ...userConfig,
   sortImports: {
