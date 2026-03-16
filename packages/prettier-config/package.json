@@ -3,13 +3,19 @@
   "version": "7.1.0",
   "description": "Prettier config for VuePress Team",
   "homepage": "https://github.com/vuepress",
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
   "repository": {
     "type": "git",
     "url": "https://github.com/vuepress/configs.git"
   },
-  "license": "MIT",
-  "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
+  "files": [
+    "./dist"
+  ],
   "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
@@ -17,20 +23,17 @@
     },
     "./package.json": "./package.json"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.cts",
-  "files": [
-    "./dist"
-  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsdown",
     "clean": "rimraf ./dist"
   },
+  "dependencies": {
+    "prettier": "catalog:prettier"
+  },
   "devDependencies": {
     "tsdown": "catalog:dev"
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

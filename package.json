@@ -6,22 +6,13 @@
     "build": "pnpm -r run build",
     "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
-    "format": "prettier --write .",
-    "lint": "eslint . && prettier --check .",
+    "format": "oxfmt",
+    "lint": "eslint . && oxfmt --check",
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
     "release:version": "lerna version"
   },
-  "lint-staged": {
-    "!(test)/**/*.(js)": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "!(test)/**/*.!(js)": "prettier --write --ignore-unknown",
-    "package.json": "sort-package-json"
-  },
-  "prettier": "@vuepress/prettier-config",
   "devDependencies": {
     "@commitlint/cli": "catalog:dev",
     "@commitlint/config-conventional": "catalog:dev",
@@ -30,15 +21,21 @@
     "@lerna-lite/publish": "catalog:dev",
     "@types/node": "catalog:dev",
     "@vuepress/eslint-config": "workspace:*",
-    "@vuepress/prettier-config": "workspace:*",
+    "@vuepress/oxfmt-config": "workspace:*",
     "@vuepress/tsconfig": "workspace:*",
     "eslint": "catalog:eslint",
     "husky": "catalog:dev",
     "lint-staged": "catalog:dev",
-    "prettier": "catalog:dev",
+    "oxfmt": "catalog:oxfmt",
     "rimraf": "catalog:dev",
-    "sort-package-json": "catalog:dev",
     "typescript": "catalog:dev"
+  },
+  "lint-staged": {
+    "!(test)/**/*.(js)": [
+      "eslint --fix",
+      "oxfmt --no-error-on-unmatched-pattern"
+    ],
+    "!(test)/**/*.!(js)": "oxfmt --no-error-on-unmatched-pattern"
   },
   "packageManager": "pnpm@10.32.1",
   "pnpm": {

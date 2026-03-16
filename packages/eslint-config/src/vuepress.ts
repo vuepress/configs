@@ -1,6 +1,7 @@
 import type { EslintOptions } from '@meteorlxy/eslint-config'
 import { meteorlxy, rules } from '@meteorlxy/eslint-config'
 import type { Config } from 'eslint/config'
+
 import { extendsOverrides } from './utils'
 
 export interface VuepressOptions extends Omit<EslintOptions, 'react'> {
