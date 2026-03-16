@@ -1,6 +1,6 @@
 {
   "name": "@vuepress/tsconfig",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "description": "TSConfig for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "license": "MIT",
