@@ -13,10 +13,9 @@ npm i -D @vuepress/oxfmt-config
 ## Usage
 
 ```ts
-import { defineConfig } from 'oxfmt'
 import { vuepress } from '@vuepress/oxfmt-config'
 
-export default defineConfig(vuepress())
+export default vuepress()
 ```
 
 ## License
