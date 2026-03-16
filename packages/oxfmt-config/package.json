@@ -1,0 +1,39 @@
+{
+  "name": "@vuepress/oxfmt-config",
+  "version": "7.1.0",
+  "description": "Oxfmt config for VuePress Team",
+  "homepage": "https://github.com/vuepress",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuepress/configs.git"
+  },
+  "license": "MIT",
+  "author": "meteorlxy <meteor.lxy@foxmail.com> (https://www.meteorlxy.cn)",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "clean": "rimraf ./dist"
+  },
+  "dependencies": {
+    "oxfmt": "catalog:oxfmt"
+  },
+  "devDependencies": {
+    "tsdown": "catalog:dev"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
