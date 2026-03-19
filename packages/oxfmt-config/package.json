@@ -30,7 +30,7 @@
     "build": "tsdown",
     "clean": "rimraf ./dist"
   },
-  "dependencies": {
+  "peerDependencies": {
     "oxfmt": "catalog:oxfmt"
   },
   "devDependencies": {
