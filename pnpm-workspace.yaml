@@ -23,6 +23,6 @@ catalogs:
     eslint-plugin-vue: ^10.8.0
     vue-eslint-parser: ^10.4.0
   oxfmt:
-    oxfmt: ^0.40.0
+    oxfmt: ^0.42.0
   prettier:
     prettier: ^3.8.1
