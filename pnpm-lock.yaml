@@ -137,7 +137,7 @@ importers:
   packages/oxfmt-config:
     dependencies:
       oxfmt:
-        specifier: catalog:oxfmt
+        specifier: '>=0.42.0'
         version: 0.42.0
     devDependencies:
       tsdown:
