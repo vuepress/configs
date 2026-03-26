@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.1.0](https://github.com/vuepress/configs/compare/v8.0.1...v8.1.0) (2026-03-26)
+
+### Features
+
+* **oxfmt-config:** upgrade oxfmt to 0.42.0 ([a29aaf8](https://github.com/vuepress/configs/commit/a29aaf80f3475cf0351ef815cffb4dac74a61492))
+
 ## [8.0.1](https://github.com/vuepress/configs/compare/v8.0.0...v8.0.1) (2026-03-16)
 
 ### Bug Fixes
