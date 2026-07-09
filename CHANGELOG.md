@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.2.1](https://github.com/vuepress/configs/compare/v8.2.0...v8.2.1) (2026-07-09)
+
+### Bug Fixes
+
+* **tsconfig:** remove deprecated noStrictGenericChecks (close [#11](https://github.com/vuepress/configs/issues/11)) ([a3913a8](https://github.com/vuepress/configs/commit/a3913a86caa95c6a287d9f1a9a979f53e0b5a4a2))
+
 # [8.2.0](https://github.com/vuepress/configs/compare/v8.1.0...v8.2.0) (2026-05-08)
 
 **Note:** Version bump only for package @vuepress/configs

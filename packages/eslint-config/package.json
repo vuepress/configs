@@ -1,6 +1,6 @@
 {
   "name": "@vuepress/eslint-config",
-  "version": "8.2.0",
+  "version": "8.2.1",
   "description": "ESLint config for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "license": "MIT",
