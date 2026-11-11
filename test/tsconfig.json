@@ -3,6 +3,6 @@
   "compilerOptions": {
     "jsx": "preserve"
   },
-  "include": ["./src/**/*", "./src/**/*.vue"],
+  "include": ["./src/**/*", "./src/**/*.vue", "*.config.ts"],
   "exclude": ["**/node_modules/**", "**/dist/**"]
 }

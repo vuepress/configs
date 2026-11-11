@@ -3,12 +3,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "oxlint -c oxlint.config.ts"
   },
   "dependencies": {
     "vue": "catalog:dev-test"
   },
   "devDependencies": {
-    "@vuepress/eslint-config": "workspace:*"
+    "@vuepress/oxlint-config": "workspace:*",
+    "oxlint": "catalog:oxlint"
   }
 }

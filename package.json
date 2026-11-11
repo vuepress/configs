@@ -7,7 +7,7 @@
     "check-types": "tsc --noEmit --skipLibCheck",
     "clean": "pnpm -r run clean",
     "format": "oxfmt",
-    "lint": "eslint . && oxfmt --check",
+    "lint": "oxlint -c oxlint.config.ts && oxfmt --check",
     "prepare": "husky",
     "release": "pnpm release:check && pnpm release:version",
     "release:check": "pnpm clean && pnpm build && pnpm lint && pnpm check-types",
@@ -20,22 +20,23 @@
     "@lerna-lite/cli": "catalog:dev",
     "@lerna-lite/publish": "catalog:dev",
     "@types/node": "catalog:dev",
-    "@vuepress/eslint-config": "workspace:*",
     "@vuepress/oxfmt-config": "workspace:*",
+    "@vuepress/oxlint-config": "workspace:*",
     "@vuepress/tsconfig": "workspace:*",
-    "eslint": "catalog:eslint",
     "husky": "catalog:dev",
     "lint-staged": "catalog:dev",
     "oxfmt": "catalog:oxfmt",
+    "oxlint": "catalog:oxlint",
+    "oxlint-tsgolint": "catalog:oxlint",
     "rimraf": "catalog:dev",
     "typescript": "catalog:dev"
   },
   "lint-staged": {
-    "!(test)/**/*.(js)": [
-      "eslint --fix",
+    "!(test)/**/*.(js|ts)": [
+      "oxlint -c oxlint.config.ts --fix",
       "oxfmt --no-error-on-unmatched-pattern"
     ],
-    "!(test)/**/*.!(js)": "oxfmt --no-error-on-unmatched-pattern"
+    "!(test)/**/*.!(js|ts)": "oxfmt --no-error-on-unmatched-pattern"
   },
   "devEngines": {
     "packageManager": {
