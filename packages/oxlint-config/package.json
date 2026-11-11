@@ -1,6 +1,6 @@
 {
   "name": "@vuepress/oxlint-config",
-  "version": "8.2.1",
+  "version": "8.3.0",
   "description": "Oxlint config for VuePress Team",
   "homepage": "https://github.com/vuepress",
   "license": "MIT",
