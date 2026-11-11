@@ -1,11 +1,13 @@
 import type { VuepressOptions } from './vuepress'
 
 type OptionsWithOverrides = {
-  [K in keyof VuepressOptions as Required<VuepressOptions>[K] extends {
-    overrides?: unknown
-  }
-    ? K
-    : never]: VuepressOptions[K]
+  [
+    K in keyof VuepressOptions as Required<VuepressOptions>[K] extends {
+      overrides?: unknown
+    }
+      ? K
+      : never
+  ]: VuepressOptions[K]
 }
 
 export const extendsOverrides = (
